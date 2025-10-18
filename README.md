@@ -10,7 +10,9 @@
 - Nice detailed blog on working of eBPF by Bootlin: ([Link](https://bootlin.com/blog/bouncing-on-trampolines-to-run-ebpf-programs/))
 - RFC 9669 BPF Instruction Set Architecture (ISA) : ([Link](https://www.rfc-editor.org/info/rfc9669))
 - sched_ext: scheduler architecture and interfaces : ([Part1](https://blogs.igalia.com/changwoo/sched-ext-a-bpf-extensible-scheduler-class-part-1/)), ([Part2](https://blogs.igalia.com/changwoo/sched-ext-scheduler-architecture-and-interfaces-part-2/))
-- eBPF labs for hands-on: ([Link](https://labs.iximiuz.com/){:target="_blank"})
+- eBPF labs for hands-on: ([Link](https://labs.iximiuz.com/))
+
+- <a href="[https://example.com/](https://labs.iximiuz.com/)" target="_blank">Link</a>
 
 ## Compilers:
 - 
