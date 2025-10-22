@@ -15,5 +15,6 @@
 ## eBPF + AI/LLMs: 
 - https://eunomia.dev/GPTtrace/
 
+## Defcon for Beginners: [Link](https://www.lastweekasavciso.com/p/a-guide-to-defcon-hacker-conference)
 ## Compilers:
 - 
