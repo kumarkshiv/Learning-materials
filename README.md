@@ -18,6 +18,9 @@
 ## eBPF + WASM:
 - eBPF + Wasm Lightweight Observability on Steroids: [Link](https://kccncna2023.sched.com/event/1R2uf)
   - Deploying eBPF programs through WASM Application (lightweight, 10s of MBs) instead of containers (100s of MBs)
+ 
+## eBPF + Security/Vulnerabilities:
+- DEF CON 33 - Finding and Exploiting Kernel Vulnerabilities in the eBPF Subsystem - Agostino Panico: [Link](https://www.youtube.com/watch?v=TXs5F-7-2aE)
 
 ## Defcon for Beginners: [Link](https://www.lastweekasavciso.com/p/a-guide-to-defcon-hacker-conference)
 ## Compilers:
