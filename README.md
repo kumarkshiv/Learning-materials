@@ -13,15 +13,24 @@
 - eBPF labs for hands-on: ([Link](https://labs.iximiuz.com/))
 
 ## eBPF + AI/LLMs: 
-- https://eunomia.dev/GPTtrace/
-
+- eBPF × AI/LLMs: The Convergence of System Observability and Artificial Intelligence: [Link](https://eunomia.dev/GPTtrace/)
+- Yusheng Zheng (Researcher in **eBPF + AI**): [Website](https://www.yunwei37.com/)
 ## eBPF + WASM:
 - eBPF + Wasm Lightweight Observability on Steroids: [Link](https://kccncna2023.sched.com/event/1R2uf)
   - Deploying eBPF programs through WASM Application (lightweight, 10s of MBs) instead of containers (100s of MBs)
- 
+
 ## eBPF + Security/Vulnerabilities:
 - DEF CON 33 - Finding and Exploiting Kernel Vulnerabilities in the eBPF Subsystem - Agostino Panico: [Link](https://www.youtube.com/watch?v=TXs5F-7-2aE)
 
 ## Defcon for Beginners: [Link](https://www.lastweekasavciso.com/p/a-guide-to-defcon-hacker-conference)
-## Compilers:
-- 
+
+# Resources to prepare for Jobs/Placement:
+
+## Algorithms and Datastructures (By Abdul Bari): [Link](https://www.youtube.com/@abdul_bari)
+
+## 4 Minutes Summary - Algorithms and Datastructures (By Michael Sambol): [Link](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO2D89q42-y8voxIJKpB4oR)
+
+## Questions asked in different companies (Category-wise)
+- Leetcode Patterns: [Link](https://seanprashad.com/leetcode-patterns/)
+
+## Visualizing Algorithms and Data structures through animation: [Link](https://visualgo.net/en)
