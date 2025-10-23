@@ -1,3 +1,12 @@
+---
+
+## Currently learning/working on:
+1. Agentic AI (DeepLearning.AI): [Link](https://learn.deeplearning.ai/courses/agentic-ai/lesson/pu5xbv/welcome!)
+2. Blind 75 (LeetCode.com): [Link](https://leetcode.com/problem-list/oizxjoit/)
+3. Webassembly Tutorial: [Link](https://marcoselvatici.github.io/WASM_tutorial/)
+   
+---
+
 # Resources related to Networks, Systems, Compilers, etc.
 
 ## Network (Linux):
