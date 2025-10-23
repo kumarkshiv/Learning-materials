@@ -1,7 +1,7 @@
 ## Currently learning/working on:
-1. Agentic AI (DeepLearning.AI): [Link](https://learn.deeplearning.ai/courses/agentic-ai/lesson/pu5xbv/welcome!)
-2. Blind 75 (LeetCode.com): [Link](https://leetcode.com/problem-list/oizxjoit/)
-3. Webassembly Tutorial: [Link](https://marcoselvatici.github.io/WASM_tutorial/)
+1. Agentic AI (DeepLearning.AI): [Link](https://learn.deeplearning.ai/courses/agentic-ai/lesson/pu5xbv/welcome!) : **[67% Done]**
+2. Blind 75 (LeetCode.com): [Link](https://leetcode.com/problem-list/oizxjoit/): **[41/75 Done]**
+3. Webassembly Tutorial: [Link](https://marcoselvatici.github.io/WASM_tutorial/): **[Started...!!!]**
    
 ---
 
