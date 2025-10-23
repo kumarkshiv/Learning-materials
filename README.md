@@ -25,7 +25,10 @@
 ## Defcon for Beginners: [Link](https://www.lastweekasavciso.com/p/a-guide-to-defcon-hacker-conference)
 
 # Resources to prepare for Jobs/Placement:
-
+- **Leetcode:**
+  - Blind-75: [Link](https://leetcode.com/problem-list/oizxjoit/)
+  - NeetCode-150: [Link](https://leetcode.com/problem-list/plakya4j/)
+  - Striver SDE Sheet (117 Questions): [Link](https://leetcode.com/problem-list/eeudwo2i/)
 - Algorithms and Datastructures (By Abdul Bari): [Link](https://www.youtube.com/@abdul_bari)
 - 4 Minutes Summary - Algorithms and Datastructures (By Michael Sambol): [Link](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO2D89q42-y8voxIJKpB4oR)
 - Leetcode Patterns: [Link](https://seanprashad.com/leetcode-patterns/)
