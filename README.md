@@ -26,11 +26,8 @@
 
 # Resources to prepare for Jobs/Placement:
 
-## Algorithms and Datastructures (By Abdul Bari): [Link](https://www.youtube.com/@abdul_bari)
-
-## 4 Minutes Summary - Algorithms and Datastructures (By Michael Sambol): [Link](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO2D89q42-y8voxIJKpB4oR)
-
-## Questions asked in different companies (Category-wise)
+- Algorithms and Datastructures (By Abdul Bari): [Link](https://www.youtube.com/@abdul_bari)
+- 4 Minutes Summary - Algorithms and Datastructures (By Michael Sambol): [Link](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO2D89q42-y8voxIJKpB4oR)
 - Leetcode Patterns: [Link](https://seanprashad.com/leetcode-patterns/)
-
-## Visualizing Algorithms and Data structures through animation: [Link](https://visualgo.net/en)
+  - Questions asked in different companies (Category-wise)
+- Visualizing Algorithms and Data structures through animation: [Link](https://visualgo.net/en)
