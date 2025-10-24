@@ -30,6 +30,12 @@
    
 3. Blind 75 (LeetCode.com): [Link](https://leetcode.com/problem-list/oizxjoit/): **[41/75 Done]**
 4. Webassembly Tutorial: [Link](https://marcoselvatici.github.io/WASM_tutorial/): **[Started...!!!]**
+
+   - Setup of WASM done in an Ubuntu VM.
+   - Tested a simple HelloWorld program in C (Compiled by emcc compiler and generated .js and .html files.)
+   - Next: Can we run eBPF/XDP programs using WASM? 
+      - eBPF --> User space program (deploy, controls, collects data from kernel programs) + Kernel space program (runs inside the kernel in VM)
+      - [uBPF](https://github.com/iovisor/ubpf), [bpftime](https://github.com/eunomia-bpf/bpftime) : eBPF runtime in userspace **(NEED TO EXPLORE)**
    
 ---
 
