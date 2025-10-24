@@ -14,7 +14,7 @@
              - Compute the ratio of **preferred** vs **total results**.
              - Return **PASS / FAIL** for a prompt.
             
-      - **Practical tips for Building Agentic AI:**
+      - Practical tips for Building Agentic AI:
          i. Improving **non-LLM** components performance:
             a. Tune hyperparameters of the components (e.g., # results, date range in websearch component, etc.)
             b. Replace the component (e.g., try a different web search engine, etc.)
