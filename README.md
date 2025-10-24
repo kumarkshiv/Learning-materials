@@ -29,8 +29,10 @@
          - Use different models in your Agentic workflow (Observe which model works better for which type of tasks, use easy-to-use libraries like [Aisuite](https://github.com/andrewyng/aisuite))
    
 3. Blind 75 (LeetCode.com): [Link](https://leetcode.com/problem-list/oizxjoit/): **[41/75 Done]**
+
    ![LeetCode Stats](https://leetcard.jacoblin.cool/Shivoid?theme=light&font=Cardo&ext=heatmap)
-4. Webassembly Tutorial: [Link](https://marcoselvatici.github.io/WASM_tutorial/): **[Started...!!!]**
+   
+5. Webassembly Tutorial: [Link](https://marcoselvatici.github.io/WASM_tutorial/): **[Started...!!!]**
 
    - Setup of WASM done in an Ubuntu VM.
    - Tested a simple HelloWorld program in C (Compiled by emcc compiler and generated .js and .html files.)
