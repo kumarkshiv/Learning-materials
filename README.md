@@ -1,7 +1,22 @@
 ## Currently learning/working on:
 1. Agentic AI (DeepLearning.AI): [Link](https://learn.deeplearning.ai/courses/agentic-ai/lesson/pu5xbv/welcome!) : **[67% Done]**
-2. Blind 75 (LeetCode.com): [Link](https://leetcode.com/problem-list/oizxjoit/): **[41/75 Done]**
-3. Webassembly Tutorial: [Link](https://marcoselvatici.github.io/WASM_tutorial/): **[Started...!!!]**
+   . . .
+   a. Module-4:
+      - . . .
+      - Hands-on: Adding component-level evaluation to your Agenti Workflow:
+         - When your Agentic workflow is complex, when one component is performing poorly --> Doing an end-to-end evaluation is time-consuming.
+         - It is difficult to see the end-to-end improvement by just improving one component. (Due to randomness introduced by other components).
+         - Do component-level evaluations.
+           - Identify the component performing poorly.
+           - Design an evaluation for that component --> Add this evaluation to your Agentic workflow.
+           - Example: **Web Search** of a research workflow.
+             - See if the component is returning the URLs from your list of preferred domains.
+             - Compute the ratio of **preferred** vs **total results**.
+             - Return **PASS / FAIL** for a prompt.
+            
+      - 
+3. Blind 75 (LeetCode.com): [Link](https://leetcode.com/problem-list/oizxjoit/): **[41/75 Done]**
+4. Webassembly Tutorial: [Link](https://marcoselvatici.github.io/WASM_tutorial/): **[Started...!!!]**
    
 ---
 
