@@ -3,7 +3,7 @@
    . . .
    a. Module-4:
       - . . .
-      - Hands-on: Adding component-level evaluation to your Agenti Workflow:
+      - **Hands-on: Adding component-level evaluation to your Agenti Workflow:**
          - When your Agentic workflow is complex, when one component is performing poorly --> Doing an end-to-end evaluation is time-consuming.
          - It is difficult to see the end-to-end improvement by just improving one component. (Due to randomness introduced by other components).
          - Do component-level evaluations.
@@ -14,7 +14,19 @@
              - Compute the ratio of **preferred** vs **total results**.
              - Return **PASS / FAIL** for a prompt.
             
-      - 
+      - **Practical tips for Building Agentic AI:**
+         i. Improving **non-LLM** components performance:
+            a. Tune hyperparameters of the components (e.g., # results, date range in websearch component, etc.)
+            b. Replace the component (e.g., try a different web search engine, etc.)
+         ii. Improving **LLM** components performance:
+            a. Improve your prompts (e.g., add more explicit instructions or examples to prompt, use **few-shot** prompting, etc.)
+            b. Try different LLMs and use evaluations to pick the best model. **(Need skill to identify a good model)**
+            c. If a task is too complex for the model --> **Decompose** the task into multiple steps (e.g., Generation, reflection, etc.)
+       
+      **Q) How can you identify a good model for a particular task?**
+         - Play with different models. (Have a set of evaluations, read other people's prompts for ideas of how to best use models, etc.)
+         - Use different models in your Agenti workflow (Observe which model works better for which type of tasks, use easy-to-use libraries like [Aisuite](https://github.com/andrewyng/aisuite))
+   
 3. Blind 75 (LeetCode.com): [Link](https://leetcode.com/problem-list/oizxjoit/): **[41/75 Done]**
 4. Webassembly Tutorial: [Link](https://marcoselvatici.github.io/WASM_tutorial/): **[Started...!!!]**
    
