@@ -15,14 +15,15 @@
              - Return **PASS / FAIL** for a prompt.
             
       - **Practical tips for Building Agentic AI**:
-        i. Improving **non-LLM** components performance:
-         a. Tune hyperparameters of the components (e.g., # results, date range in websearch component, etc.)
-         b. Replace the component (e.g., try a different web search engine, etc.)
-        ii. Improving **LLM** components performance:
-         a. Improve your prompts (e.g., add more explicit instructions or examples to prompt, use **few-shot** prompting, etc.)
-         b. Try different LLMs and use evaluations to pick the best model. **(Need skill to identify a good model)**
-         c. If a task is too complex for the model --> **Decompose** the task into multiple steps (e.g., Generation, reflection, etc.)       
-      **Q) How can you identify a good model for a particular task?**
+         - Improving **non-LLM** components performance:
+           - Tune hyperparameters of the components (e.g., # results, date range in websearch component, etc.)
+           - Replace the component (e.g., try a different web search engine, etc.)
+         - Improving **LLM** components performance:
+           - Improve your prompts (e.g., add more explicit instructions or examples to prompt, use **few-shot** prompting, etc.)
+           - Try different LLMs and use evaluations to pick the best model. **(Need skill to identify a good model)**
+           - If a task is too complex for the model --> **Decompose** the task into multiple steps (e.g., Generation, reflection, etc.)
+                   
+      - **Q) How can you identify a good model for a particular task?**
          - Play with different models. (Have a set of evaluations, read other people's prompts for ideas of how to best use models, etc.)
          - Use different models in your Agenti workflow (Observe which model works better for which type of tasks, use easy-to-use libraries like [Aisuite](https://github.com/andrewyng/aisuite))
    
