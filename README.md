@@ -5,9 +5,9 @@
    A. Module-4:
       - . . .
       - **Hands-on: Adding component-level evaluation to your Agenti Workflow:**
-         a. When your Agentic workflow is complex, when one component is performing poorly --> Doing an end-to-end evaluation is time-consuming.
-         b. It is difficult to see the end-to-end improvement by just improving one component. (Due to randomness introduced by other components).
-         c. Do component-level evaluations.
+         i. When your Agentic workflow is complex, when one component is performing poorly --> Doing an end-to-end evaluation is time-consuming.
+         ii. It is difficult to see the end-to-end improvement by just improving one component. (Due to randomness introduced by other components).
+         iii. Do component-level evaluations.
            - Identify the component performing poorly.
            - Design an evaluation for that component --> Add this evaluation to your Agentic workflow.
            - Example: **Web Search** of a research workflow.
@@ -16,10 +16,10 @@
              - Return **PASS / FAIL** for a prompt.
             
       - **Practical tips for Building Agentic AI**:
-         a. Improving **non-LLM** components performance:
+         i. Improving **non-LLM** components performance:
            - Tune hyperparameters of the components (e.g., # results, date range in websearch component, etc.)
            - Replace the component (e.g., try a different web search engine, etc.)
-         b. Improving **LLM** components performance:
+         ii. Improving **LLM** components performance:
            - Improve your prompts (e.g., add more explicit instructions or examples to prompt, use **few-shot** prompting, etc.)
            - Try different LLMs and use evaluations to pick the best model. **(Need skill to identify a good model)**
            - If a task is too complex for the model --> **Decompose** the task into multiple steps (e.g., Generation, reflection, etc.)
