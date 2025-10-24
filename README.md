@@ -26,7 +26,7 @@
                    
       - **Q) How can you identify a good model for a particular task?**
          - Play with different models. (Have a set of evaluations, read other people's prompts for ideas of how to best use models, etc.)
-         - Use different models in your Agenti workflow (Observe which model works better for which type of tasks, use easy-to-use libraries like [Aisuite](https://github.com/andrewyng/aisuite))
+         - Use different models in your Agentic workflow (Observe which model works better for which type of tasks, use easy-to-use libraries like [Aisuite](https://github.com/andrewyng/aisuite))
    
 3. Blind 75 (LeetCode.com): [Link](https://leetcode.com/problem-list/oizxjoit/): **[41/75 Done]**
 4. Webassembly Tutorial: [Link](https://marcoselvatici.github.io/WASM_tutorial/): **[Started...!!!]**
