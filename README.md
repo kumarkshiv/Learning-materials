@@ -30,7 +30,7 @@
    
 3. Blind 75 (LeetCode.com): [Link](https://leetcode.com/problem-list/oizxjoit/): **[41/75 Done]**
 
-   ![LeetCode Stats](https://leetcard.jacoblin.cool/Shivoid?theme=light&font=Cardo&ext=heatmap)
+   ![LeetCode Stats](https://leetcard.jacoblin.cool/Shivoid?theme=light&font=Cardo&ext=heatmap) [REF](https://leetcard.jacoblin.cool/)
    
 5. Webassembly Tutorial: [Link](https://marcoselvatici.github.io/WASM_tutorial/): **[Started...!!!]**
 
