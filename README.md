@@ -40,6 +40,15 @@
            - Track the cost per unit (e.g., per token, per API, etc.) for each component in the workflow.
            - Identify if there are cheaper alternatives for the component.
         - This exercise gives clarity about which component we should focus on to improve it further.
+        - **Development process of Agentic Workflow:**
+                      | Build                           | **<<< =========== >>>** | Analyze                           |
+            |---------------------------------|:-----------------------:|-----------------------------------|
+            | 1. Build end-to-end system.     |                         |                                   |
+            |                                 |                         | 2. Examine the outputs and traces |
+            | 3. Improve individual component |                         |                                   |
+            |                                 |                         | 4. Build evals, compute metrics   |
+            |                                 |                         | 5. Error Analysis                 |
+            |                                 |                         | 6. Component-level Evals          |
    B. Module-5: Patterns for Highly Autonomous Agents
    
 3. Blind 75 (LeetCode.com): [Link](https://leetcode.com/problem-list/oizxjoit/): **[41/75 Done]**
