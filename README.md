@@ -41,6 +41,7 @@
            - Identify if there are cheaper alternatives for the component.
         - This exercise gives clarity about which component we should focus on to improve it further.
         - **Development process of Agentic Workflow:**
+          - Building and analyzing Agentic workflow should happen back and forth as shown in the table below.
                       | Build                           | **<<< =========== >>>** | Analyze                           |
             |---------------------------------|:-----------------------:|-----------------------------------|
             | 1. Build end-to-end system.     |                         |                                   |
