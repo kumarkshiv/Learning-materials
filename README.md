@@ -1,5 +1,5 @@
 ## Currently learning/working on:
-1. Agentic AI (DeepLearning.AI): [Link](https://learn.deeplearning.ai/courses/agentic-ai/lesson/pu5xbv/welcome!) : **[70% Done]**
+1. Agentic AI (DeepLearning.AI): [Link](https://learn.deeplearning.ai/courses/agentic-ai/lesson/pu5xbv/welcome!) : **[76% Done]**
    . . .
    
    A. Module-4:
@@ -27,6 +27,20 @@
       - **Q) How can you identify a good model for a particular task?**
          - Play with different models. (Have a set of evaluations, read other people's prompts for ideas of how to best use models, etc.)
          - Use different models in your Agentic workflow (Observe which model works better for which type of tasks, use easy-to-use libraries like [Aisuite](https://github.com/andrewyng/aisuite))
+
+      - **Latency, Cost and Optimization**
+         - **First** focus on getting high-quality Outputs and high performance (This is the hardest part.)
+         - When the entire workflow is working end-to-end with high-quality output and performance, then we should focus on optimizing cost and latency.
+         - _Ideas for Optimizing time:_
+           - Benchmark or time for each component of the workflow.
+           - Identify the components that have the most room to make it faster.
+           - Take advantage of parallelism (e.g., web fetch task, analyze multiple URLs in parallel.)
+           - Try less intelligent and smaller models **(faster)** that can work better for a particular task.
+         - _Ideas for Optimizing cost:_
+           - Track the cost per unit (e.g., per token, per API, etc.) for each component in the workflow.
+           - Identify if there are cheaper alternatives for the component.
+        - This exercise gives clarity about which component we should focus on to improve it further.
+   B. Module-5: Patterns for Highly Autonomous Agents
    
 3. Blind 75 (LeetCode.com): [Link](https://leetcode.com/problem-list/oizxjoit/): **[41/75 Done]**
 
