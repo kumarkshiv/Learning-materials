@@ -2,7 +2,7 @@
 1. Agentic AI (DeepLearning.AI): [Link](https://learn.deeplearning.ai/courses/agentic-ai/lesson/pu5xbv/welcome!) : **[76% Done]**
    . . .
    
-   A. Module-4:
+   A. **Module-4:**
       - . . .
       - **Hands-on: Adding component-level evaluation to your Agenti Workflow:**
          i. When your Agentic workflow is complex, when one component is performing poorly --> Doing an end-to-end evaluation is time-consuming.
@@ -50,7 +50,7 @@
             |                                 |                         | 4. Build evals, compute metrics   |
             |                                 |                         | 5. Error Analysis                 |
             |                                 |                         | 6. Component-level Evals          |
-   B. Module-5: Patterns for Highly Autonomous Agents
+   B. **Module-5: Patterns for Highly Autonomous Agents**
    
 3. Blind 75 (LeetCode.com): [Link](https://leetcode.com/problem-list/oizxjoit/): **[41/75 Done]**
 
