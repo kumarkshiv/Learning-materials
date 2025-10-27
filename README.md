@@ -50,7 +50,10 @@
             |                                 |                         | 4. Build evals, compute metrics   |
             |                                 |                         | 5. Error Analysis                 |
             |                                 |                         | 6. Component-level Evals          |
+            
    B. **Module-5: Patterns for Highly Autonomous Agents**
+      - ...
+      - ...
    
 3. Blind 75 (LeetCode.com): [Link](https://leetcode.com/problem-list/oizxjoit/): **[41/75 Done]**
 
