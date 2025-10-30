@@ -1,5 +1,5 @@
 ## Currently learning/working on:
-1. Agentic AI (DeepLearning.AI): [Link](https://learn.deeplearning.ai/courses/agentic-ai/lesson/pu5xbv/welcome!) : **[76% Done]**
+1. Agentic AI (DeepLearning.AI): [Link](https://learn.deeplearning.ai/courses/agentic-ai/lesson/pu5xbv/welcome!) : **[82% Done]**
    . . .
    
    A. **Module-4:**
