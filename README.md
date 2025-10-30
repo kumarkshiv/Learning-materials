@@ -52,8 +52,14 @@
             |                                 |                         | 6. Component-level Evals          |
             
    B. **Module-5: Patterns for Highly Autonomous Agents**
-      - ...
-      - ...
+      - Planning the Workflows:
+        - Example: Customer service Agent.
+        - ![Customer Service Agent](https://github.com/user-attachments/assets/b867413f-b9ac-4fe2-a7d1-588ecc0baaf4)
+        - One advantage with LLMS: We do not have to decide in advance, what is the sequence in which to call in order to answer a fairly complex customer request
+      - Creating and executing LLM plans:
+        - Clear and unambiguous way to do this is format your plan in text to JSON format. (Ask an LLM to format the plan to a JSON format.)
+        - ![Prompt-Creating LLM plans](https://github.com/user-attachments/assets/95644994-99ab-4fb4-9b05-a3eea3b0bf10)
+
    
 3. Blind 75 (LeetCode.com): [Link](https://leetcode.com/problem-list/oizxjoit/): **[41/75 Done]**
 
