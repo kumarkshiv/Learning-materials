@@ -114,3 +114,6 @@
 
 # Resources to learn Dynamic Programming:
 - Dynamic Programming Playlist (By Aditya Verma): [Link](https://www.youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go)
+
+# Operating Systems:
+- Operating Systems: Three Easy Pieces: [Link](https://pages.cs.wisc.edu/~remzi/OSTEP/)
