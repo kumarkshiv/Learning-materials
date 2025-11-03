@@ -61,11 +61,11 @@
         - ![Prompt-Creating LLM plans](https://github.com/user-attachments/assets/95644994-99ab-4fb4-9b05-a3eea3b0bf10){width=250}
 
    
-3. Blind 75 (LeetCode.com): [Link](https://leetcode.com/problem-list/oizxjoit/): **[41/75 Done]**
+2. Blind 75 (LeetCode.com): [Link](https://leetcode.com/problem-list/oizxjoit/): **[41/75 Done]**
 
    ![LeetCode Stats](https://leetcard.jacoblin.cool/Shivoid?theme=light&font=Cardo&ext=heatmap) [REF](https://leetcard.jacoblin.cool/)
    
-5. Webassembly Tutorial: [Link](https://marcoselvatici.github.io/WASM_tutorial/): **[Started...!!!]**
+3. Webassembly Tutorial: [Link](https://marcoselvatici.github.io/WASM_tutorial/): **[Started...!!!]**
 
    - Setup of WASM done in an Ubuntu VM.
    - Tested a simple HelloWorld program in C (Compiled by emcc compiler and generated .js and .html files.)
@@ -117,3 +117,6 @@
 
 # Operating Systems:
 - Operating Systems: Three Easy Pieces: [Link](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+
+# AI/LLM:
+- [The Smol Training Playbook: The Secrets to Building World-Class LLMs](https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook#introduction)
