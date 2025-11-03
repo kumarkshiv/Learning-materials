@@ -1,9 +1,12 @@
 ## Currently learning/working on:
 1. Agentic AI (DeepLearning.AI): [Link](https://learn.deeplearning.ai/courses/agentic-ai/lesson/pu5xbv/welcome!) : **[100% Done]** : **([Notes](https://github.com/kumarkshiv/Learning-materials/blob/main/AI/README.md))**
 2. Operating System concepts:
-   - [The Abstraction: The Process](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf)
-      - _Summary:_
-   - 
+   I. Virtualization:
+      - [The Abstraction: The Process](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf)
+         - _Summary:_
+   II. Concurrency:
+   III. Persistence:
+ 
 4. Blind 75 (LeetCode.com): [Link](https://leetcode.com/problem-list/oizxjoit/): **[41/75 Done]**
 
    ![LeetCode Stats](https://leetcard.jacoblin.cool/Shivoid?theme=light&font=Cardo&ext=heatmap) [REF](https://leetcard.jacoblin.cool/)
