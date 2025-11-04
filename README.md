@@ -8,6 +8,15 @@
             - The **process API** consists of calls programs can make related to processes. Typically, this includes _creation_, _destruction_, and other useful calls.
             - Processes exist in one of many different process states, including **running**, **ready** to run, and **blocked**. Different events (e.g., getting scheduled or descheduled, or waiting for an I/O to complete) transition a process from one of these states to the other.
             - A **process list** contains information about all processes in the system. Each entry is found in what is sometimes called a **process control block (PCB)**, which is really just a structure that contains **information about a specific process**.
+      -  [Mechanism: Limited Direct Execution](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf)
+         -  _Summary:_
+            -  The CPU should support at least two modes of execution: a restricted user mode and a privileged (non-restricted) kernel mode.
+            -  Typical user applications run in user mode, and use a system call to trap into the kernel to request operating system services.
+            -  The trap instruction saves register state carefully, changes the hardware status to kernel mode, and jumps into the OS to a pre-specified destination: the trap table.
+            -  When the OS finishes servicing a system call, it returns to the user program via another specialreturn-from-trap instruction, which reduces privilege and returns control to the instruction after the trap that jumped into the OS.
+            -  The trap tables must be set up by the OS at boot time, and make sure that they cannot be readily modified by user programs. All of this is part of the limited direct execution protocol which runs programs efficiently but without loss of OS control.
+            -  Once a program is running, the OS must use hardware mechanisms to ensure the user program does not run forever, namely the timer interrupt. This approach is a non-cooperative approach to CPU scheduling.
+            -  Sometimes the OS, during a timer interrupt or system call, might wish to switch from running the current process to a different one, a low-level technique known as a context switch.
 
    ### Concurrency:
    ### Persistence:
