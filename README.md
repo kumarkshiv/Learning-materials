@@ -72,6 +72,7 @@
 - Leetcode Patterns: [Link](https://seanprashad.com/leetcode-patterns/)
   - Questions asked in different companies (Category-wise)
 - Visualizing Algorithms and Data structures through animation: [Link](https://visualgo.net/en)
+- [Amazon OA Questions (For practice)](http://geeksforgeeks.org/explore?page=1&company=Amazon&difficulty=Medium,Hard&sortBy=difficulty&itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=practice_header)
 
 # Resources to learn Dynamic Programming:
 - Dynamic Programming Playlist (By Aditya Verma): [Link](https://www.youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go)
