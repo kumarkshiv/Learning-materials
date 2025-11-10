@@ -1,6 +1,6 @@
 # Cloud Infrastructure Engineer
 
-## SSH key based login
+##2. SSH key based login
 
 **SSH (or Secure SHell)**
 
@@ -13,6 +13,9 @@
 
 - SSH keys pairs are two cryptographically secure keys that can be used to authenticate a client to an SSH server.
 - Each key consistes of a _Public key_ and a _Private key_.
+- The **Private key** is retained by the clinet and should be **kept absolutely secret**. If compromised, the private key will allow any hackers to access the server configured with associated Public key without any additional authentication. (For additional precaution, the private key can be encrypted on a disk with a paraphrase)
+- The associated **Public key** can be shared freely. The public key is used to encrypt message that only a provate key can decrypt.
+- The Public key is uploaded to a remote server thet you wnat to access using SSH.
+- The key is added to a special file within the user account you will be logging into called '''~/.ssh/authorized_keys'''.
 
-## SSH passphrase protected key based login
-
+##2. SSH passphrase protected key based login
