@@ -12,7 +12,7 @@
 **How Do SSH Keys Works**
 
 - SSH keys pairs are two cryptographically secure keys that can be used to authenticate a client to an SSH server.
-- Each key consistes of a _Public key_ and a _Private key_.
+- Each key consistes of a _**Public key**_ and a _**Private key**_.
 - The **Private key** is retained by the clinet and should be **kept absolutely secret**. If compromised, the private key will allow any hackers to access the server configured with associated Public key without any additional authentication. (For additional precaution, the private key can be encrypted on a disk with a paraphrase)
 - The associated **Public key** can be shared freely. The public key is used to encrypt message that only a provate key can decrypt.
 - The Public key is uploaded to a remote server thet you wnat to access using SSH.
