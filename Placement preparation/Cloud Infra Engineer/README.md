@@ -58,6 +58,22 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCqql6MzstZYh1TmWWv11q5O3pISj2ZFl9HgH1JLknL
 echo public_key_string >> ~/.ssh/authorized_keys
 ``` 
 
+- __If you stored keys in a different path please remember it. It will be used for authentication:__
+
+
+** Step 3 (Authenticating to Your Server Using SSH Keys)**
+
+- If you did not change the default path while generating ssh keys, the use the below command to login:
+```
+ssh username@remote_host
+```
+
+- Else use the below command:
+```
+ssh -i <path_to_keys> username@remote_host
+```
+
+
 **References:**
 
 [1] [How to Create an SSH Key in Linux: Easy Step-by-Step Guide](https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server)
