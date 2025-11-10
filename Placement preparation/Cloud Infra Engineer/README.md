@@ -79,3 +79,7 @@ ssh -i <path_to_keys> username@remote_host
 [1] [How to Create an SSH Key in Linux: Easy Step-by-Step Guide](https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server)
 
 ## 2. SSH passphrase protected key based login
+
+-  Same as above (while generating SSH Keys, type a paraphrase/password to encrypt the private key with the password.)
+
+## 3. SSH agent for passphrase automation
