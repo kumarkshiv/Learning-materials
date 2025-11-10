@@ -1,6 +1,6 @@
 # Cloud Infrastructure Engineer
 
-## 2. SSH key based login
+## 1. SSH key based login
 
 **SSH (or Secure SHell)**
 
@@ -21,6 +21,6 @@
 
 
 **References:**
-- [How to Create an SSH Key in Linux: Easy Step-by-Step Guide](https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server)
+[1] [How to Create an SSH Key in Linux: Easy Step-by-Step Guide](https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server)
 
 ## 2. SSH passphrase protected key based login
