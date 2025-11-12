@@ -22,11 +22,11 @@
       -  [CPU Scheduling](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf)
          -  _Summary:_
             - **Scheduling Metrics:**
-               - _**Turnaround Time:**_ The time at which the job completes **-** The time at which the job arrives
+               - _**Turnaround Time=**_ (The time at which the job completes) **-** (The time at which the job arrives)
                  ```math
                  T_{turnaround} = T_{completion} - T_{arrival}
                  ```
-               - _**Response Time:**_ The time the job is scheduled for the first time **-** The time from when the job arrives in the system
+               - _**Response Time:**_ (The time the job is scheduled for the first time) **-** (The time from when the job arrives in the system)
                  ```math
                  T_{response} = T_{firstrun} - T_{arrival}
                  ```
