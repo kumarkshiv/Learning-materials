@@ -21,6 +21,9 @@
       
       -  [CPU Scheduling](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf)
          -  _Summary:_
+            - **Scheduling Metrics:**
+               - _**Turnaround Time:**_ The time at which the job completes **-** The time at which the job arrives
+               - _**Response Time:**_ The time the job is scheduled for the first time **-** The time from when the job arrives in the system  
             - There are two families of scheduling approaches: **1. STCF** (Shortest Time-to-Completion First) and **2. Round Robin**
             - The first runs the shortest job remaining and thus optimizes **turnaround time** but performs bad in terms of **response time**. 
             - The second alternates between all jobs and thus optimizes **response time**, but at the cost of **turnaround time**. 
