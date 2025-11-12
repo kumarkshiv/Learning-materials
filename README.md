@@ -23,7 +23,7 @@
          -  _Summary:_
             - There are two families of scheduling approaches: **1. STCF** (Shortest Time-to-Completion First) and **2. Round Robin**
             - The first runs the shortest job remaining and thus optimizes **turnaround time** but performs bad in terms of **response time**. 
-            - The second alternates between all jobs and thus optimizes **response time**, but gives bad **turnaround time**. 
+            - The second alternates between all jobs and thus optimizes **response time**, but at the cost of **turnaround time**. 
             - Both the approaches have an inherent trade-off common in systems. 
             - We have also seen how we might incorporate I/O into the picture, but have still not solved the problem of the fundamental inability of the OS to see into the future (i.e., predicting the nature of the job). 
             - This problem can be solved by a scheduler that uses the recent past about the scheduled jobs and predict the future. This scheduler is known as the multi-level feedback queue (to be studied next).
