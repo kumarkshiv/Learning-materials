@@ -23,7 +23,9 @@
          -  _Summary:_
             - **Scheduling Metrics:**
                - _**Turnaround Time:**_ The time at which the job completes **-** The time at which the job arrives
-                 $$ T_turnaround = T_completion - T_arrival $$
+                 ```math
+                 T_turnaround = T_completion - T_arrival
+                 ```
                - _**Response Time:**_ The time the job is scheduled for the first time **-** The time from when the job arrives in the system  
             - There are two families of scheduling approaches: **1. STCF** (Shortest Time-to-Completion First) and **2. Round Robin**
             - The first runs the shortest job remaining and thus optimizes **turnaround time** but performs bad in terms of **response time**. 
