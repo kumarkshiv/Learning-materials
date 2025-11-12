@@ -21,7 +21,7 @@
       
       -  [CPU Scheduling](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf)
          -  _Summary:_
-            - There are two families of scheduling approaches. 
+            - There are two families of scheduling approaches: **1. STCF** (Shortest Time-to-Completion First) and **2. Round Robin**
             - The first runs the shortest job remaining and thus optimizes **turnaround time** but performs bad in terms of **response time**. 
             - The second alternates between all jobs and thus optimizes **response time**, but gives bad **turnaround time**. 
             - Both the approaches have an inherent trade-off common in systems. 
