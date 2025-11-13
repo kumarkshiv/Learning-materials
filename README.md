@@ -36,8 +36,18 @@
             - Both the approaches have an inherent trade-off common in systems. 
             - We have also seen how we might incorporate I/O into the picture, but have still not solved the problem of the fundamental inability of the OS to see into the future (i.e., predicting the nature of the job). 
             - This problem can be solved by a scheduler that uses the recent past about the scheduled jobs and predict the future. This scheduler is known as the multi-level feedback queue (to be studied next).
+              
       - [Scheduling: The Multi-Level Feedback Queue](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf)
-         - 
+         -  The Multi-Level Feedback Queue (MLFQ) has multiple levels of queues, and uses feedback to determine the priority of a given job. 
+         -	MLFQ pays attention to how jobs behave over time and treat them accordingly. The MLFQ follows below rules to decide how to update priority of the jobs:
+	         -	**Rule 1:** If Priority(A) > Priority(B), A runs (B doesn’t).
+	         -	**Rule 2:** If Priority(A) = Priority(B), A & B run in round-robin fashion using the time slice (quantum length) of the given queue.
+	         -	**Rule 3:** When a job enters the system, it is placed at the highest priority (the topmost queue).
+	         -	**Rule 4:** Once a job uses up its time allotment at a given level (regardless of how many times it has given up the CPU), its priority is reduced (i.e., it moves down one queue).
+	         -	**Rule 5:** After some time period S, move all the jobs in the system to the topmost queue.
+         - MLFQ is interesting for the following reason: instead of demanding a priori knowledge of the nature of a job, it observes the execution of a job and prioritizes it accordingly. In this way, it manages to achieve the best of both worlds: it can deliver excellent overall performance (similar to SJF/STCF) for short-running interactive jobs, and is fair and makes progress for long-running CPU-intensive workloads. 
+         - For this reason, many systems, including BSD UNIX derivatives, Solaris, and Windows NT and subsequent Windows operating systems use a form of MLFQ as their base scheduler.
+
    ### Concurrency:
    ### Persistence:
  
