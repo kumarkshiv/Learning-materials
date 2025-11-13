@@ -2,42 +2,39 @@
 1. Agentic AI (DeepLearning.AI): [Link](https://learn.deeplearning.ai/courses/agentic-ai/lesson/pu5xbv/welcome!) : **[100% Done]** : **([Notes](https://github.com/kumarkshiv/Learning-materials/blob/main/AI/README.md))**
 2. Operating System concepts:
    ### Virtualization:
-      - [The Abstraction: The Process](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf)
-         - _Summary:_
-            - The **process** is the major OS abstraction of a running program. At any point in time, the process can be described by its state: the contents of memory in its address space, the contents of CPU registers (including the _program counter_ and _stack pointer_, among others), and information about I/O (such as open files which can be read or written).
-            - The **process API** consists of calls programs can make related to processes. Typically, this includes _creation_, _destruction_, and other useful calls.
-            - Processes exist in one of many different process states, including **running**, **ready** to run, and **blocked**. Different events (e.g., getting scheduled or descheduled, or waiting for an I/O to complete) transition a process from one of these states to the other.
-            - A **process list** contains information about all processes in the system. Each entry is found in what is sometimes called a **process control block (PCB)**, which is really just a structure that contains **information about a specific process**.
+      - [The Abstraction: The Process](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf) **_(Summary)_**
+		- The **process** is the major OS abstraction of a running program. At any point in time, the process can be described by its state: the contents of memory in its address space, the contents of CPU registers (including the _program counter_ and _stack pointer_, among others), and information about I/O (such as open files which can be read or written).
+		- The **process API** consists of calls programs can make related to processes. Typically, this includes _creation_, _destruction_, and other useful calls.
+		- Processes exist in one of many different process states, including **running**, **ready** to run, and **blocked**. Different events (e.g., getting scheduled or descheduled, or waiting for an I/O to complete) transition a process from one of these states to the other.
+		- A **process list** contains information about all processes in the system. Each entry is found in what is sometimes called a **process control block (PCB)**, which is really just a structure that contains **information about a specific process**.
               
-      -  [Mechanism: Limited Direct Execution](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf)
-         -  _Summary:_
-            -  The CPU should support at least two modes of execution: a restricted **user mode** and a privileged (non-restricted) **kernel mode**.
-            -  Typical user applications run in user mode, and use a **system call** to **trap** into the kernel to request operating system services.
-            -  The **trap instruction** saves register state carefully, changes the hardware status to kernel mode, and jumps into the OS to a pre-specified destination: the **trap table**.
-            -  When the OS finishes servicing a system call, it returns to the user program via another special **return-from-trap** instruction, which reduces privilege and returns control to the instruction after the trap that jumped into the OS.
-            -  The **trap tables** must be set up by the OS at **boot time**, and make sure that they **cannot be readily modified by user programs**. All of this is part of the limited direct execution protocol which runs programs efficiently but without loss of OS control.
-            -  Once a program is running, the OS must use **hardware mechanisms** to ensure the user program does not run forever, namely the **timer interrupt**. This approach is a **non-cooperative** approach to CPU scheduling.
-            -  Sometimes the OS, during a timer interrupt or system call, might wish to switch from running the current process to a different one, a low-level technique known as a **context switch**.
+      -  [Mechanism: Limited Direct Execution](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf) **_(Summary)_**
+		-  The CPU should support at least two modes of execution: a restricted **user mode** and a privileged (non-restricted) **kernel mode**.
+		-  Typical user applications run in user mode, and use a **system call** to **trap** into the kernel to request operating system services.
+		-  The **trap instruction** saves register state carefully, changes the hardware status to kernel mode, and jumps into the OS to a pre-specified destination: the **trap table**.
+		-  When the OS finishes servicing a system call, it returns to the user program via another special **return-from-trap** instruction, which reduces privilege and returns control to the instruction after the trap that jumped into the OS.
+		-  The **trap tables** must be set up by the OS at **boot time**, and make sure that they **cannot be readily modified by user programs**. All of this is part of the limited direct execution protocol which runs programs efficiently but without loss of OS control.
+		-  Once a program is running, the OS must use **hardware mechanisms** to ensure the user program does not run forever, namely the **timer interrupt**. This approach is a **non-cooperative** approach to CPU scheduling.
+		-  Sometimes the OS, during a timer interrupt or system call, might wish to switch from running the current process to a different one, a low-level technique known as a **context switch**.
       
-      -  [CPU Scheduling](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf)
-         -  _Summary:_
-            - **Scheduling Metrics:**
-               - _**Turnaround Time=**_ (The time at which the job completes) **-** (The time at which the job arrives)
-                 ```math
-                 T_{turnaround} = T_{completion} - T_{arrival}
-                 ```
-               - _**Response Time:**_ (The time the job is scheduled for the first time) **-** (The time from when the job arrives in the system)
-                 ```math
-                 T_{response} = T_{firstrun} - T_{arrival}
-                 ```
-            - There are two families of scheduling approaches: **1. STCF** (Shortest Time-to-Completion First) and **2. Round Robin**
-            - The first runs the shortest job remaining and thus optimizes **turnaround time** but performs bad in terms of **response time**. 
-            - The second alternates between all jobs and thus optimizes **response time**, but at the cost of **turnaround time**. 
-            - Both the approaches have an inherent trade-off common in systems. 
-            - We have also seen how we might incorporate I/O into the picture, but have still not solved the problem of the fundamental inability of the OS to see into the future (i.e., predicting the nature of the job). 
-            - This problem can be solved by a scheduler that uses the recent past about the scheduled jobs and predict the future. This scheduler is known as the multi-level feedback queue (to be studied next).
+      -  [CPU Scheduling](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf) **_(Summary)_**
+		- **Scheduling Metrics:**
+		   - _**Turnaround Time=**_ (The time at which the job completes) **-** (The time at which the job arrives)
+			 ```math
+			 T_{turnaround} = T_{completion} - T_{arrival}
+			 ```
+		   - _**Response Time:**_ (The time the job is scheduled for the first time) **-** (The time from when the job arrives in the system)
+			 ```math
+			 T_{response} = T_{firstrun} - T_{arrival}
+			 ```
+		- There are two families of scheduling approaches: **1. STCF** (Shortest Time-to-Completion First) and **2. Round Robin**
+		- The first runs the shortest job remaining and thus optimizes **turnaround time** but performs bad in terms of **response time**. 
+		- The second alternates between all jobs and thus optimizes **response time**, but at the cost of **turnaround time**. 
+		- Both the approaches have an inherent trade-off common in systems. 
+		- We have also seen how we might incorporate I/O into the picture, but have still not solved the problem of the fundamental inability of the OS to see into the future (i.e., predicting the nature of the job). 
+		- This problem can be solved by a scheduler that uses the recent past about the scheduled jobs and predict the future. This scheduler is known as the multi-level feedback queue (to be studied next).
               
-      - [Scheduling: The Multi-Level Feedback Queue](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf)
+      - [Scheduling: The Multi-Level Feedback Queue](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf) **_(Summary)_**
          -  The Multi-Level Feedback Queue (MLFQ) has multiple levels of queues, and uses feedback to determine the priority of a given job. 
          -	MLFQ pays attention to how jobs behave over time and treat them accordingly. The MLFQ follows below rules to decide how to update priority of the jobs:
 	         -	**Rule 1:** If Priority(A) > Priority(B), A runs (B doesn’t).
