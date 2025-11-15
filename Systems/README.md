@@ -3,6 +3,7 @@ Q) A user wants to access/download multiple files (e.g., image, pdf, video, etc.
 
 Q) Why the use of IPv6 is being delayed.? What is the reason for that? 
 
+Q) What is the main goal of CSMA/CD?
 
 # OS (Assessment/Interview Questions)
 
