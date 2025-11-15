@@ -114,3 +114,4 @@
 
 # Misc Resources:
 - [Inside NVIDIA GPUs: Anatomy of high performance matmul kernels](https://www.aleksagordic.com/blog/matmul)
+- [Computer Science from the Bottom Up](https://www.bottomupcs.com/)
