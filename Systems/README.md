@@ -36,4 +36,6 @@ Q)
 
 Q) Code to validate if the given tree is BST or not. (With and without recursion)
 
-Q) 
+Q) Properties of Red/Black tree and its usecase
+
+Q) What is union find? Why it is used? What are it's supported operations and there time complexity.
