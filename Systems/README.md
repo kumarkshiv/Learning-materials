@@ -1,41 +1,9 @@
-# Networks (Assessment/Interview Questions)
-Q) A user wants to access/download multiple files (e.g., image, pdf, video, etc.) from a website. How does *HTTP1.1* handles this.?
+# Syetems for GenAI / GenAI for Systems (Link)[https://utnslab.github.io/fa25-adv-topics-in-sys-genai/reading-list/]
 
-Q) Why the use of IPv6 is being delayed.? What is the reason for that? 
+## Topics covered:
 
-Q) What is the main goal of CSMA/CD?
+### Part 1 - LLMs: Backbone of Modern AI (Link)[https://utnslab.github.io/fa25-adv-topics-in-sys-genai/reading-list/#part-1---llms-backbone-of-modern-ai]
 
-# OS (Assessment/Interview Questions)
+### Part 2 - GenAI: Beyond Simple Text Generation (Link)[https://utnslab.github.io/fa25-adv-topics-in-sys-genai/reading-list/#part-2---genai-beyond-simple-text-generation]
 
-Q) Trap vs interrupt
-
-Q) Bealedy Anomaly
-
-
-# Architecture (Assessment/Interview Questions)
-
-Q) TLB
-
-Q) In a pipelining architecture, why the empty slots inserted into the pipeline
-
-Q) RAID5
-
-
-# OOPs (Assessment/Interview Questions)
-
-Q) Slice in C++
-
-Q) Virtual functions
-
-Q) Virtual function Destructors
-
-Q) 
-
-
-# DSA (Assessment/Interview Questions)
-
-Q) Code to validate if the given tree is BST or not. (With and without recursion)
-
-Q) Properties of Red/Black tree and its usecase
-
-Q) What is union find? Why it is used? What are it's supported operations and there time complexity.
+### Part 3 - GenAI for Systems (link)[https://utnslab.github.io/fa25-adv-topics-in-sys-genai/reading-list/#part-3---genai-for-systems]
