@@ -36,6 +36,7 @@ Q) Slice in C++:
 Q) Virtual functions:
   
   - A virtual function in C++ is a function in a **base class (Parent)** that you expect to override in a **derived class (Child)**, and it enables **runtime polymorphism**.
+  - A virtual destructor ensures that when you delete a derived object (child) through a base class (parent) pointer, the derived class destructor is also executed.
   - Example:
 ```cpp
 #include <iostream>
