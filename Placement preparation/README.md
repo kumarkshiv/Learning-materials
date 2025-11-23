@@ -33,7 +33,33 @@ Q) Slice in C++:
       - The extra toppings get cut off (sliced).
       - That is **object slicing.**
 
-Q) Virtual functions
+Q) Virtual functions:
+  
+  - A virtual function in C++ is a function in a **base class (Parent)** that you expect to override in a **derived class (Child)**, and it enables **runtime polymorphism**.
+  - Example:
+```
+#include <iostream>
+using namespace std;
+
+class Animal {
+public:
+    virtual void sound() {     // virtual keyword
+        cout << "Animal makes sound\n";
+    }
+};
+
+class Dog : public Animal {
+public:
+    void sound() override {
+        cout << "Dog barks\n";
+    }
+};
+
+int main() {
+    Animal* a = new Dog();
+    a->sound();   // ✔ Calls Dog::sound()
+}
+```
 
 Q) Virtual function Destructors
 
