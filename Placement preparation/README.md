@@ -23,13 +23,23 @@ Q) RAID5
 
 # OOPs (Assessment/Interview Questions)
 
-Q) Slice in C++
+Q) Slice in C++:
+
+  - In C++, "slice" (i..e, object slicing) is a concept that happens when a **derived class (child class)** object is assigned to a **base class (parent)** object by value. The extra parts of the derived class get cut off (sliced) and only the base part is kept.
+  - Simple Explanation (Imagine a Pizza Slice):
+    - A Derived class is like a big pizza with extra toppings.
+    - A Base class is like a small plain pizza.
+    - If you try to put the big pizza into the small pizza box:
+      - The extra toppings get cut off (sliced).
+      - That is **object slicing.**
 
 Q) Virtual functions
 
 Q) Virtual function Destructors
 
-Q) 
+Q) Friend function in C++:
+
+  - A friend function is not part of the class. It has access to private and protected members of the class. It is declared inside the class using the keyword friend.
 
 
 # DSA (Assessment/Interview Questions)
