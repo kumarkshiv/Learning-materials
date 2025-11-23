@@ -61,7 +61,9 @@ int main() {
 }
 ```
 
-Q) Virtual function Destructors
+Q) Virtual function Destructors:
+
+- A virtual destructor is a destructor in a **base class** that is marked as **virtual**, so that when you delete an object through a base class pointer, the **derived class** destructor is also called.
 
 Q) Friend function in C++:
 
