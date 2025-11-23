@@ -37,7 +37,7 @@ Q) Virtual functions:
   
   - A virtual function in C++ is a function in a **base class (Parent)** that you expect to override in a **derived class (Child)**, and it enables **runtime polymorphism**.
   - Example:
-```
+```cpp
 #include <iostream>
 using namespace std;
 
