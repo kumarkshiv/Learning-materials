@@ -11,6 +11,7 @@ Q) Trap vs interrupt
 
 Q) Bealedy Anomaly
 
+Q) What is the difference between process and thread? 
 
 # Architecture (Assessment/Interview Questions)
 
