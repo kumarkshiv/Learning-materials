@@ -115,3 +115,4 @@
 # Misc Resources:
 - [Inside NVIDIA GPUs: Anatomy of high performance matmul kernels](https://www.aleksagordic.com/blog/matmul)
 - [Computer Science from the Bottom Up](https://www.bottomupcs.com/)
+- [How Google’s Tensor Processing Unit (TPU) Works?](https://open.substack.com/pub/bytebytego/p/how-googles-tensor-processing-unit?utm_campaign=post-expanded-share&utm_medium=web)
