@@ -93,6 +93,7 @@
 
 # Resources to prepare for Jobs/Placement:
 - **Leetcode:**
+  - Leetcode-75: [Link](https://leetcode.com/studyplan/leetcode-75/)
   - Blind-75: [Link](https://leetcode.com/problem-list/oizxjoit/)
   - NeetCode-150: [Link](https://leetcode.com/problem-list/plakya4j/)
   - Striver SDE Sheet (117 Questions): [Link](https://leetcode.com/problem-list/eeudwo2i/)
