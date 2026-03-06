@@ -17,6 +17,12 @@ Q) What is a 'Memory Leak' in cloud? How it happens? How can it be prevented?
 
 Q) What is **systemd** in Linux?
 
+# Compiler (Assessment/Interview Questions)
+
+Q) What is **SSA (Static Single Assignment)**? Whay SSA matters?
+
+Q) 
+
 # Architecture (Assessment/Interview Questions)
 
 Q) TLB
