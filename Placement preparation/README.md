@@ -13,6 +13,10 @@ Q) Bealedy Anomaly
 
 Q) What is the difference between process and thread? 
 
+Q) What is a 'Memory Leak' in cloud? How it happens? How can it be prevented?
+
+Q) What is **systemd** in Linux?
+
 # Architecture (Assessment/Interview Questions)
 
 Q) TLB
