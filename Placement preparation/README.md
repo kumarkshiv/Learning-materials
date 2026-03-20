@@ -19,7 +19,7 @@ Q) What is a **Memory Leak** in cloud? How it happens? How can it be prevented?
 Q) What is **systemd** in Linux?
 
 Q) Difference between ```~/.bashrc``` and ```~/.profile```? 
-![alt text](image.png)
+![alt text](images/bashrc-vs-profile.png)
 
 # Compiler (Assessment/Interview Questions)
 
