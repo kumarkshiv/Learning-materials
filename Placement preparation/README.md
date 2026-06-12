@@ -19,6 +19,45 @@ Q) What is a **Memory Leak** in cloud? How it happens? How can it be prevented?
 Q) What is **systemd** in Linux?
 
 Q) Difference between ```~/.bashrc``` and ```~/.profile```? 
+
+Q) What is Process memory layout?
+
+Q) What is wrong with the below code snippet?
+```
+int *f(void) {
+    return (int[]){1, 2, 3};
+}
+```
+Ans) The moment function call ends, the memory is destroyed and the caller will receieve a memory location that was destryed after callee function execution is complete.
+
+Q) What will this code do?
+```
+struct Base{ 
+  init();
+
+  Base(){ 
+    virtual void init(){  
+
+    }
+  }  
+};
+struct Derived : Base{ 
+  void init() override {  
+
+  } 
+};
+
+Derived d;
+```
+
+Q) What will this code snippet print?
+```
+const int x = 10;
+int *p = (int*)&x;
+*p = 20;
+printf("%d", x);
+```
+
 ![alt text](images/bashrc-vs-profile.png)
 
 # Compiler (Assessment/Interview Questions)
