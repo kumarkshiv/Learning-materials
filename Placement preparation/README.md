@@ -30,6 +30,9 @@ int *f(void) {
 ```
 Ans) The moment function call ends, the memory is destroyed and the caller will receieve a memory location that was destryed after callee function execution is complete.
 
+Q) What is process memory layout?
+Ans) 
+
 Q) What will this code do?
 ```
 struct Base{ 
