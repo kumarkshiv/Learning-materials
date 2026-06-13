@@ -64,6 +64,8 @@ printf("%d", x);
 
 Q) What is **SSA (Static Single Assignment)**? Whay SSA matters?
 
+Q) What the key difference between Normal program verifier and in-kernel eBPF Verifier?
+
 Q) 
 
 # Architecture (Assessment/Interview Questions)
@@ -90,7 +92,7 @@ Q) Slice in C++:
 Q) Virtual functions:
   
   - A virtual function in C++ is a function in a **base class (Parent)** that you expect to override in a **derived class (Child)**, and it enables **runtime polymorphism**.
-  - A virtual destructor ensures that when you delete a derived object (child) through a base class (parent) pointer, the derived class destructor is also executed.
+  - A virtual destructor ensures that when you delete a derived object (child) through a base class (parent) pointer, _**the derived class destructor is also executed**_.
   - Example:
 ```cpp
 #include <iostream>
@@ -123,6 +125,14 @@ Q) Virtual function Destructors:
 Q) Friend function in C++:
 
   - A friend function is not part of the class. It has access to private and protected members of the class. It is declared inside the class using the keyword friend.
+
+Q) Why the below operation is not recommended in compilers:
+```
+  int i = 0;
+  i = i++ + ++i;
+```
+- The operation ```i = i++ + ++i``` is heavily discouraged and considered a major risk in programming and compiler design because it exhibits undefined behavior (in C and C++) or yields confusing, counter-intuitive results depending on the language specification (such as in Java or C#).
+- The language does not define the order in which the operands of + are evaluated. Both operands modify i. There is no sequencing relationship between these modifications.
 
 
 # DSA (Assessment/Interview Questions)
