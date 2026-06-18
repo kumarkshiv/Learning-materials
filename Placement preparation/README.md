@@ -152,8 +152,72 @@ Q) Why the below operation is not recommended in compilers:
 
 # DSA (Assessment/Interview Questions)
 
-Q) Code to validate if the given tree is BST or not. (With and without recursion)
+Q1) Code to validate if the given tree is BST or not. (With and without recursion)
 
-Q) Properties of Red/Black tree and its usecase
+Q2) Properties of Red/Black tree and its usecase
 
-Q) What is union find? Why it is used? What are it's supported operations and there time complexity.
+Q3) What is union find? Why it is used? What are it's supported operations and there time complexity.
+
+Q4) Implement Stack using array in c++.
+
+Q5) How array in C/C++ works in the background?
+
+```
+#include <bits/stdc++.h>
+
+using namespace std;
+
+class Stack {
+private:
+    int stk[100];
+    int topIndex;
+
+public:
+    Stack() {
+        topIndex = 0;
+    }
+
+    void push(int item) {
+        if (topIndex >= 100) {
+            cout << "Stack is full." << endl;
+        }
+        else {
+            stk[topIndex] = item;
+            topIndex++;
+        }
+    }
+
+    void pop() {
+        if (topIndex == 0) {
+            cout << "Stack is empty." << endl;
+        }
+        else {
+            topIndex--;
+        }
+    }
+
+    int topElement() {
+        if (topIndex == 0) {
+            cout << "Stack is empty." << endl;
+            return -1;
+        }
+        return stk[topIndex - 1];
+    }
+};
+
+int main() {
+    Stack stk;
+    stk.push(12);
+    cout << stk.topElement() << endl;
+    stk.pop();
+    return 0;
+}
+```
+
+Q6) What is dynamic array?
+
+Q7) Difference between Linked List and Graph?
+
+Q8) Why accessing elements in Array is faster than Linked List?
+
+Q9) 
