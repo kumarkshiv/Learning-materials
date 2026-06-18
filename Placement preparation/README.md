@@ -219,5 +219,7 @@ Q6) What is dynamic array?
 Q7) Difference between Linked List and Graph?
 
 Q8) Why accessing elements in Array is faster than Linked List?
+Ans) Elements in array can be accessed with the help of Index in *O(1)*. However, in LinkedList you have to traverse the List till you find the target element and it takes **O(N)** in the worst case.
 
-Q9) 
+Q9) Why inserting elements in the middle of a LinkedList is complex that in Array?
+Ans) 
