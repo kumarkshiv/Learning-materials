@@ -25,14 +25,12 @@
   - Whether the process is running (on the CPU) or blocked (by an event)?
   - What address space has been assigned to it?
   - Which files the process is allowed to address?
-
 - Let's analyse the **_task_struct_**.
-  - Location in Linux: 
-
+  - Location in Linux:    
     ```$ ls /usr/src/linux-headers-$(uname -r)/include/linux/sched.h ```
-
-  - [Link to task_struct in sched.h file](https://elixir.bootlin.com/linux/v6.8/source/include/linux/sched.h#L748)
-
+  - Link to task_struct in sched.h file : [(Link)](https://elixir.bootlin.com/linux/v6.8/source/include/linux/sched.h#L748)
+  - Important fields:
+    - ,,
 
 # Process memory layout
 - A process memory has four sections:
