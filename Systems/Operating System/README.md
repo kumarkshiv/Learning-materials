@@ -19,19 +19,6 @@
   $ htop
   ```
 
-# How does the Linux kernel know about each process?
-- The Linux OS maintains a **_Process Descriptor_** (a _task_struct_ type structure) to maintain the details about each process to get a clear picture of what each process is doing. For example:
-  - Priority of the process.
-  - Whether the process is running (on the CPU) or blocked (by an event)?
-  - What address space has been assigned to it?
-  - Which files the process is allowed to address?
-- Let's analyse the **_task_struct_**.
-  - Location in Linux:    
-    ```$ ls /usr/src/linux-headers-$(uname -r)/include/linux/sched.h ```
-  - Link to task_struct in sched.h file : [(Link)](https://elixir.bootlin.com/linux/v6.8/source/include/linux/sched.h#L748)
-  - Important fields:
-    - ,,
-
 # Process memory layout
 - A process memory has four sections:
 
@@ -44,7 +31,21 @@
 
 **Ref:** https://www.wiley.com/en-in/shop/general-end-user-computing/operating-system-concepts-10th-edition-p-9781119320913
 
+
+# How does the Linux kernel know about each process?
+- The Linux OS maintains a **_Process Descriptor_** (a _task_struct_ type structure) to maintain the details about each process to get a clear picture of what each process is doing. For example:
+  - Priority of the process.
+  - Whether the process is running (on the CPU) or blocked (by an event)?
+  - What address space has been assigned to it?
+  - Which files the process is allowed to address?
+- Let's analyse the **_task_struct_**.
+  - The **_task_struct_** is defined in sched.h header file in Linux:    
+    ```$ ls /usr/src/linux-headers-$(uname -r)/include/linux/sched.h ```
+  - Link to task_struct in sched.h file : [(Link)](https://elixir.bootlin.com/linux/v6.8/source/include/linux/sched.h#L748)
+  <!-- - Important fields: -->
+
 # Process states in Linux:
+- The **state** field in the Process descriptor describes what is currently happening to the process.
 - 
 
 # References:
