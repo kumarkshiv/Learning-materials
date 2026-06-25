@@ -20,9 +20,6 @@ Q) What is **systemd** in Linux?
 
 Q) Difference between ```~/.bashrc``` and ```~/.profile```? 
 
-Q) What is Process memory layout?
-
-
 Q) What is wrong with the below code snippet?
 ```
 int *f(void) {

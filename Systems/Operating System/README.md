@@ -19,6 +19,17 @@
   $ htop
   ```
 
+# Process memory layout
+- A process memory has four sections:
+
+  1. **Text Section:** The part of the process memory stores the executable code.
+  2. **Data Section:** The data section of the process memory stores global variables defined in the code.
+  3. **Heap Section:** This section is used to dynamically allocate memory during program run time (i.e., program execution).
+  4. **Stack Section:** This memory section stores temporary data (such as: Function parameters, Return addresses and Local variables.)
+
+![alt text](../../Placement%20preparation/images/process_memory_layout.png)
+
+**Ref:** https://www.wiley.com/en-in/shop/general-end-user-computing/operating-system-concepts-10th-edition-p-9781119320913
 
 # Process states in Linux:
 - 
