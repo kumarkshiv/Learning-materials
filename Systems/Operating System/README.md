@@ -19,6 +19,21 @@
   $ htop
   ```
 
+# How does the Linux kernel know about each process?
+- The Linux OS maintains a **_Process Descriptor_** (a _task_struct_ type structure) to maintain the details about each process to get a clear picture of what each process is doing. For example:
+  - Priority of the process.
+  - Whether the process is running (on the CPU) or blocked (by an event)?
+  - What address space has been assigned to it?
+  - Which files the process is allowed to address?
+
+- Let's analyse the **_task_struct_**.
+  - Location in Linux: 
+
+    ```$ ls /usr/src/linux-headers-$(uname -r)/include/linux/sched.h ```
+
+  - [Link to task_struct in sched.h file](https://elixir.bootlin.com/linux/v6.8/source/include/linux/sched.h#L748)
+
+
 # Process memory layout
 - A process memory has four sections:
 
