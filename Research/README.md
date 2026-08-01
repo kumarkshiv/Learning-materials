@@ -6,8 +6,13 @@
 
 - **Date:** 1/Aug/2026
 
+**Discussion topics:**
+
 - Paper discussed: [The Fabric Is the Cluster Driver: Cross-Layer eBPF Policies for GPU-CXL Fabrics](https://arxiv.org/abs/2607.26335)
-- Key Idea:
+
+- eBPF Projects:  [eunomia-bpf](https://github.com/eunomia-bpf)
+
+- Key Idea (paper):
   
   - Normally, host CPU sees everything and take decisions using the metrics collected by in-kernel programs like eBPF, etc.
   - The idea is moving this decision overhead to the fabric (GPU + DPU + CXL devices) and the decision is taken autonamously by the fabric.
