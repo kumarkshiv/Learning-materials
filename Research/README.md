@@ -1,3 +1,5 @@
+# 01/08/2026
+
 **Community Meetup:** [PATCH v2] Linux Kernel & eBPF Meetup 
 
 **Meetup Link:** https://kernel-ebpf-meetup.github.io/?utm_source=luma
@@ -13,4 +15,5 @@
   - eBPF programs at fabric, i.e. GPUs, DPUs, Switches, NICs and CXL generate the useful metric info. and All other device in the infra will use this collected information for better and efficient decisions.
   - eBPF attached to DPUs will be more effective than in CPU  -->  We can generate computational DAG at CPU level  -->  Generating such graph is difficult with eBPF currently (due to lack of expressiveness)
   - Compute arbirary metric you need (from the devices in your fabric) and use the info. for better decisions.
-  - 
+
+# DD/MM/YYY
