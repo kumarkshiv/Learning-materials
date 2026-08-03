@@ -140,6 +140,13 @@ const int *p ; //------> (A)
 int* const p; //------> (B)
 ```
 
+Q) What will be printed? (Understand the implicing type casting in C when the expression has values of different data types.)
+```c
+printf("%f", 5/2.0);
+```
+
+Q) When you use `fork()`, how many processes are created? (Try to understand the useage of `fork` and write some example programs)
+
 Q) Slice in C++:
 
   - In C++, "slice" (i..e, object slicing) is a concept that happens when a **derived class (child class)** object is assigned to a **base class (parent)** object by value. The extra parts of the derived class get cut off (sliced) and only the base part is kept.
