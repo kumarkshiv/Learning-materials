@@ -5,7 +5,21 @@ Q) Why the use of IPv6 is being delayed.? What is the reason for that?
 
 Q) What is the main goal of CSMA/CD?
 
+Q) If a school wants the network traffic from students classroom to be isolated and do not interfere with network traffic from the techers room. Which network technology should they use?
+
+**Ans)** VLAN
+
+Q) What is the last usable IP for the the subnet: 192.168.1.128/25?
+
 # OS (Assessment/Interview Questions)
+
+Q) The user exits from the terminal and the terminal issues SIGHUP. What mechanism can be used to keep the job running even if the terminal is closed?
+
+Q) What are the 4 conditions required for a **DeadLock**?
+
+Q) Can a process block the signal SIGKILL?
+
+Q) What are the permissions for Owner, Group and Others when we run ``` chmod 640 ``` ?
 
 Q) Trap vs interrupt
 
@@ -28,7 +42,7 @@ int *f(void) {
 ```
 Ans) The moment function call ends, the memory is destroyed and the caller will receieve a memory location that was destryed after callee function execution is complete.
 
-Q) What is process memory layout?
+Q) What is process memory layout? How Stack and Heap moves (upward or downwards?)
 
 Ans) A process memory has four sections:
 
@@ -89,7 +103,42 @@ Q) In a pipelining architecture, why the empty slots inserted into the pipeline
 Q) RAID5
 
 
-# OOPs (Assessment/Interview Questions)
+# C / C++ / OOPs (Assessment/Interview Questions)
+
+Q) Which O2 optimization flag is used in the C program to prevent the infinite loop?
+
+Q) What is the value of `i` for the below snippet of a `C` program?
+```c
+int i = 5;
+int x = i++ + ++i;
+```
+
+Q) What will this print?
+```c
+char a = ['a' , 'b', 'c', 'd'];
+char *p = a;
+printf("%c",p[-1]);
+```
+
+Q) Why `realloc()` is dangerous to use in `C`?
+
+Q) Is this alowed in `C`? (using free twice for same pointer variable `p`)
+```c
+int *p = (int)malloc(3*sizeof(int));
+free(p);
+free(p);
+```
+
+Q) What is the value of `x`?
+```c
+int x = 1 + 2 << 3 ;
+```
+
+Q) Among `A` and `B`, which statements allows REPOINTING the pointer and No value change?
+```c
+const int *p ; //------> (A)
+int* const p; //------> (B)
+```
 
 Q) Slice in C++:
 
