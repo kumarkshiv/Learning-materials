@@ -147,6 +147,13 @@ printf("%f", 5/2.0);
 
 Q) When you use `fork()`, how many processes are created? (Try to understand the useage of `fork` and write some example programs)
 
+Q) What will the below snippet print?
+```c
+printf("A");
+fork();
+printf("B");
+```
+
 Q) Slice in C++:
 
   - In C++, "slice" (i..e, object slicing) is a concept that happens when a **derived class (child class)** object is assigned to a **base class (parent)** object by value. The extra parts of the derived class get cut off (sliced) and only the base part is kept.
